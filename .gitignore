@@ -1,0 +1,51 @@
+# Binaries and build artifacts
+main
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Build directories
+bin/
+build/
+
+# Dependency files
+go.sum
+
+# Local environment variables and credentials
+.env
+aws/
+
+# Docker-related files
+docker-compose.override.yml
+**/Dockerfile.*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+
+# Logs and debugging
+*.log
+*.out
+
+# Temporary files and backups
+*.tmp
+*.bak
+*.old
+*~
+*#
+
+# AWS credentials and configurations
+*.pem
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Node modules (if you integrate a frontend later)
+node_modules/
+
+# Exclude project-specific files/folders
+/message-service/.env
+/message-service/.aws/
